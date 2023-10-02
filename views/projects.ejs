@@ -1,0 +1,62 @@
+<!-- // 
+// File: projects.ejs
+// Student Name: Barath Srinivasan
+// Student ID: 301139370
+// Date: October 2, 2023
+//  -->
+
+
+
+
+<%- include('partials/header') %>
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="projects-section">
+            <h1>Projects</h1>
+            <div class="project">
+                <img src="/images/project1.jpg" alt="Project 1">
+                <h2>Simple Bank</h2>
+                <p>
+                    <li>Designed a database using diagram.io</li>
+                    <li>Generated cides using SQLC and Golang to communicate to the DB in a consistent and reliable way using transactions</li>
+                    <li>Understood the DB isolation levels, and how to use it correctly in production</li>
+                    <li>Ran tests by generating test cases in Golang</li>
+                    <li>Implemented server-side data validations along with authorization for all CRUD operation</li>
+                </p>
+            </div>
+            <div class="project">
+                <img src="/images/project2.jpg" alt="Project 2">
+                <h2>Python Data Frames - English Premier League</h2>
+                <p>
+                    <li>Loaded csv files into panda data frames</li>
+                        <li>Ran queries to organize teams that had the most wins each season</li>
+                        <li>Ran queries to find a particular teams best record that they played</li>	
+                        <li>Used matplotlib to organize data and present it in graphs, comparing the goals that each team scored for a particular season </li>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+</body>
+</html>

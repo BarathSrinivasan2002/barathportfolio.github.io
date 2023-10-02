@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "first assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarathSrinivasan2002/assignment1.git"
+  },
+  "author": "Barath Srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BarathSrinivasan2002/assignment1/issues"
+  },
+  "homepage": "https://github.com/BarathSrinivasan2002/assignment1#readme"
+}

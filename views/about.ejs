@@ -1,0 +1,79 @@
+<!-- Inside your about.ejs template -->
+<!-- // 
+// File: about.ejs
+// Student Name: Barath Srinivasan
+// Student ID: 301139370
+// Date: October 2, 2023
+//  -->
+
+<%- include('partials/header') %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <img src="..\images\Barath.jpg" alt="your name">
+                <h2>Barath Srinivasan</h2>
+                <p>
+My professional journey revolves around the exciting world of Machine Learning. 
+With a strong foundation in technology, I have honed my skills in a diverse range of programming languages, including Python, Java, HTML, CSS, C#,
+JavaScript, SQL, MySQL, and MongoDB.
+
+<h3>Tech Stack Proficiency</h3>
+
+I thrive on versatility and adaptability. From building web applications to database management and beyond, I've embraced a wide spectrum of technologies to create seamless and innovative solutions.
+
+<h3>Machine Learning Expertise</h3>
+
+My expertise extends to the realm of Machine Learning, where I've harnessed the power of libraries like Keras and TensorFlow.
+I've had the privilege of working with AI models such as MobileNet, leveraging their capabilities to drive transformative results.
+
+<h3>Problem Solver & Innovator</h3>
+
+As a problem solver and innovator at heart, I relish the challenge of translating complex problems into elegant solutions. 
+I bring a creative approach to every project, combining my technical skills with an innate curiosity to explore new frontiers in technology.
+
+<h3>Collaboration & Exploration</h3>
+
+I believe in the strength of collaboration and collective knowledge.
+Whether it's collaborating with multidisciplinary teams or exploring uncharted territories in AI,
+I'm passionate about fostering connections and driving innovation.
+
+<h3>Passion for AI</h3>
+
+My passion for AI goes beyond technology—it's about making a meaningful impact. 
+I'm driven by the belief that AI has the potential to transform industries, improve user experiences, and shape the future.
+
+<h3>Connect with Me</h3>
+
+I'm always eager to connect with fellow tech enthusiasts, share insights, and embark on new challenges. 
+If you're interested in discussing a project, exploring ideas, or simply connecting over our shared interests, feel free to reach out.
+
+Thank you for visiting my portfolio. I look forward to collaborating with you and bringing innovative ideas to life.
+                </p>
+                <a href="..\images\Barath_SET_resume (1).docx" target="_blank"><h2>my resume (PDF)</h2></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+</body>
+</html>

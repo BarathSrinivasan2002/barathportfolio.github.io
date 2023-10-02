@@ -1,0 +1,76 @@
+<!-- Inside your services.ejs template -->
+<!-- // 
+// File: services.ejs
+// Student Name: Barath Srinivasan
+// Student ID: 301139370
+// Date: October 2, 2023
+//  -->
+
+
+
+
+<%- include('partials/header') %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services-section">
+            <h1>Services</h1>
+            <div class="service">
+                <img src="..\images\pose.png" alt="Service 1">
+                <h2>AI-Based Chronic Lower Back Pain Detection using Pose Estimation Models</h2>
+                <p>
+                    <h4>Description:</h4>
+                    As a dedicated and innovative AI engineer, I led a groundbreaking project aimed at improving the lives of individuals suffering from 
+                    chronic lower back pain.Leveraging cutting-edge AI technologies, specifically OpenCV and MobileNet,
+                    I developed a robust and accurate system for the early detection and monitoring of chronic lower back pain.
+                </p>
+            </div>
+        </br>
+            <div class="service">
+                <img src="..\images\graph.png" alt="Service 2">
+                <h2>Keypoints Graphs based on predicted heatmap images</h2>
+                <p>I led the "KeyPoints Graphs from Predicted Heatmap Images" project as a pivotal component of our Chronic Lower Back Pain Detection team's 
+                    efforts. In our endeavor, we first trained a neural network, typically a convolutional neural network (CNN), to generate heatmaps from input
+                     medical images of the lower back. These heatmaps served as spatial representations of key anatomical points or landmarks crucial for lower 
+                     back pain assessment. Following heatmap generation, our project focused on precisely localizing these key points by identifying peak values
+                      in the heatmaps, which indicated the most probable positions of these critical anatomical features associated with chronic lower back pain.
+                </p>
+                <p> We then proceeded to construct a graph-based representation, where each key point was treated as a node, interconnected within the graph 
+                    based on their spatial relationships. This innovative approach allowed us to gain valuable insights into the structural aspects of the lower
+                     back, facilitating more accurate and comprehensive detection of chronic lower back pain.</p>
+
+                <p>Our project played a significant role in enhancing the accuracy and effectiveness of our Chronic Lower Back Pain Detection system. 
+                    To ensure real-time processing and robust results, we worked extensively on optimization techniques, including hardware acceleration and model compression. 
+                    We also employed data augmentation, model ensembling, and post-processing steps to further enhance the reliability of our detection results. Moreover, we 
+                    devoted considerable effort to building a robust dataset containing annotated lower back images to train and rigorously evaluate our model.</p>
+            </div>
+            <div class="service">
+                <img src="/images/service3.jpg" alt="Service 3">
+                <h2>General Programming</h2>
+                <p>
+                    Our team is proficient in a wide range of programming languages and technologies.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+</body>
+</html>

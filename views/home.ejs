@@ -1,0 +1,47 @@
+<!-- // 
+// File: home.ejs
+// Student Name: Barath Srinivasan
+// Student ID: 301139370
+// Date: October 2, 2023
+//  -->
+
+
+
+<%- include('partials/header') %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome-section">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Let me tell you a bit about myself. My name is Barath Srinivasan. I am an upcoming software developer. Click the learn more button to know more about me.</p>
+            <a href="/about" class="btn">Learn More</a>
+        </section>
+
+        <section class="mission-section">
+            <h2>Mission Statement</h2>
+            <p>
+                Solving Complex Problems, One Line of Code at a Time.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+</body>
+</html>
